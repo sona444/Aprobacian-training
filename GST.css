@@ -1,0 +1,83 @@
+body{
+    background-image: linear-gradient(to right, #44bce7, #e94974);
+    background-size:600% 600%;
+    animation:gradient 30s infinite;
+} 
+#nav{
+    border-bottom:1px solid white;
+    height:120px;
+}
+#head{
+    font-size:40px;
+    font-family:'Carter One';
+    font-weight: bolder;
+    float:left;
+    text-align: center;
+    padding-top:25px;
+}
+.head2{
+    font-size:17px;
+    color:white;
+    background-color:transparent;
+    padding:10px;
+    font-weight: 600;
+    border-radius:8px;
+}
+.head2:hover{
+    color:black;
+    background-color:lightblue;
+}
+#left{
+    padding-left:100px;
+    padding-top:50px;
+    float:left;
+}
+#a{
+    color:yellow;
+    font-weight:bolder;
+    font-size:36px;
+    padding-top:20px;
+    font-family:'carton one', cursive;
+}
+#b{
+    font-family:"Carter One";
+    color:white;
+    font-size:20px;
+    font-weight: 500;
+}
+#c{
+    font-family:"Carter One";
+    color:white;
+    font-size:20px;
+    font-weight: 800;
+}
+#left li{
+    font-weight: bolder;
+    list-style-type: circle;
+}
+#right{
+    float:left;
+    background-color:rgb(247, 247, 105);
+    border-radius:50%;
+    align-items: center;
+    height:500px;
+}
+#right1{
+    float:left;
+    padding-top:5px;
+    padding-left:150px;
+}
+#img{
+    padding-top: 70px;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
